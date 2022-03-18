@@ -1,0 +1,382 @@
+* {
+    margin: unset;
+    text-decoration: none;
+    list-style:none;
+    color: black
+}
+.NavBar {
+    z-index:2;
+    background-color: pink;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0px;
+}
+.MaxWidth {
+    width: 1000px;
+    margin:auto;
+    padding: 0 80px;
+}
+.NavBar .MaxWidth{
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+}
+.NavBar .logo a{
+    color:white;
+    font-weight:100;
+    font-size:30px;
+}
+.NavBar .liste{
+    padding:8px;
+}
+.NavBar .liste li {
+    display: inline-block;
+}
+.NavBar .liste li a{
+    color:white;
+    font-size:20px;
+    font-weight:500;
+    margin-left:25px;
+}
+.NavBar.liste :hover{
+    background:#EBDEF0 ;
+    color: black ;
+        transform: scale(0.95);
+        transition: 0.3s all ; 
+
+}
+.Contenue {
+    background-image: url("OIP.jfif");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+.Cont {
+    color: #fff;
+    font-family: cursive;
+    font-size: 40PX;
+    margin: auto;
+    padding: 180PX 160PX;
+}
+.about{
+    padding: 50px 150px;
+}
+.about .title{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .column-left{
+    width: 45%;
+    float: left;
+}
+.about .column-left img{
+    height: 300px;
+    width: 300px;
+    border-radius: 6px;
+    object-fit: cover;
+    transition:  3s;
+}
+.about .column-left img:hover{
+    transform: scale(1.7);
+}
+.about .column-right{
+    width: 55%;
+}
+.about .column-right .texte{
+    font-size: 30px;
+    font-weight: 600;
+}
+.about .column-right .texte span{
+    color: yellowgreen;
+}
+.about .column-right p{
+    text-align: justify;
+    font-size: 20px;
+}
+.about .column-right a{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 200;
+    background-color: pink;
+    border: 2px solid pink;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+.about .column-right a:hover{
+    background: none;
+    color: pink;
+}
+
+/********************************************************************************************/
+.fatah{
+    text-align: center;
+    color: black; 
+}
+.pied .tab{
+    border: 2px solid pink;
+    background: pink;
+    display: inline-block;
+    margin-left: 180px;
+    transition: 3s;
+}
+.pied .tab:hover{
+    background: pink;
+    transform: scale(2);
+}
+.pied .tab .design{
+    padding-left: 90px;
+    color: pink;
+    font-weight: 600;
+}
+.pied .tab .tite{
+    padding: 20px;
+    color: white;
+    padding-top: 5px;
+}
+.piedes .tab{
+    border: 2px solid pink;
+    background: pink;
+    display: inline-block;
+    margin-left: 180px;
+    transition: 3s;
+}
+.piedes .tab:hover{
+    background: pink;
+    transform: scale(2);
+}
+.piedes .tab .design{
+    padding-left: 90px;
+    color: pink;
+    font-weight: 600;
+}
+.piedes .tab .tite{
+    padding: 20px;
+    color: white;
+    padding-top: 5px;
+}
+.fall{
+    display: flex;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
+.pieds .tabs{
+    border: 2px solid pink;
+    background: pink;
+    display: inline-block;
+    margin-left: 17px;
+    margin-top: 2px;
+    transition: 3s;
+}
+.pieds .tabs:hover{
+    background: pink;
+    transform: scale(2);
+}
+.pieds .tabs .designs{
+    padding-left: 50px;
+    color: pink;
+    font-weight: 600;
+}
+.pieds .tabs .titer{
+    padding: 20px;
+    color: white;
+    padding-top: 5px;
+}
+/**********************************************************************************/
+.maimouna{
+    display: inline-block;
+    background: pink;
+}
+.sarr{
+    width: 110px;
+    height: 120px;
+    border-radius: 90%;
+    border: 4px solid pink;
+    margin-left: 50px;
+    margin-top: 10px;
+    transition: 3s;
+}
+.sarr:hover{
+    transform: scale(2);
+}
+.aiss{
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.maimouna .personne1{
+    color: white;
+    margin: 10px 30px;
+    text-align: justify;
+}
+.propre{
+    text-align: center;
+    margin-bottom: 3px;
+}
+.icone{
+    padding-left: 110px;
+    font-size: 30px;
+    color: pink;
+}
+.icones{
+    padding-left: 110px;
+    font-size: 30px;
+    color: pink;
+}
+.iconees{
+    padding-left: 110px;
+    font-size: 30px;
+    color: pink;
+}
+.maimounas{
+    display: inline-block;
+    background: pink;
+}
+.sarrs{
+    width: 130px;
+    height: 120px;
+    border-radius: 90%;
+    border: 4px solid pink;
+    margin-left: 50px;
+    margin-top: 10px;
+    transition: 3s;
+}
+.sarrs:hover{
+    transform: scale(2);
+}
+.maimounas .personne2{
+    color: white;
+    margin: 10px 30px;
+    text-align: justify;
+}
+.maimounase{
+    display: inline-block;
+    background: pink;
+}
+.sarrese{
+    width: 120px;
+    height: 120px;
+    border-radius: 90%;
+    border: 4px solid pink;
+    margin-left: 50px;
+    margin-top: 10px;
+    transition: 3s;
+}
+.sarrese:hover{
+    transform: scale(2);
+}
+.maimounase .personne3{
+    color: white;
+    margin: 10px 30px;
+    text-align: justify;
+}
+.Gl{
+    margin-left: 280px;
+    margin-bottom: 40px;
+}
+/*******************************************************************************************/
+.senegal{
+    padding-bottom: 50px;
+    padding-left: 500px;
+}
+.russie span i{
+    color: pink;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 29px;
+}
+.spe{
+    display: flex;
+}
+.name1{
+    font-size: 29px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 100;
+}
+.spes{
+    display: flex;
+}
+.name12{
+    font-size: 29px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 100;
+}
+.spess{
+    display: flex;
+}
+.name123{
+    font-size: 29px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 100;
+}
+.form-right{
+    float: left;
+    padding-left: 90px;
+    padding-top: 10px;
+    margin-right: 0px;
+}
+.form-left{
+    margin-left: 0px;
+}
+.emble{
+    display: flex;
+    margin-bottom: 20px;
+}
+.form-left .messa{
+    padding-top: 90px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+.form-left input{
+    margin-top: 8px;
+    height: 25px;
+    width: 240px;
+}
+.form-left textarea{
+    margin-top: 8px;
+}
+.send{
+    border: 2px solid pink;
+    background: pink;
+    transition: color 0.3 ease;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+.send:hover{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #9f84aa;
+    color: pink;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    top: 10px ;
+    bottom: 20px;
+    left: 20px;
+    
+}
+.hr{
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.hr::before,
+.hr::after{
+    border-top: .0625em solid;
+    flex: 1;
+}
